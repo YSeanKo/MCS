@@ -2286,3 +2286,1243 @@ Stack trace:
 #3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
 #4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
 #5 {main} REQUEST_URI=/MCS/index.php/main/index.html
+2015/11/16 10:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 10:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 10:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 10:28:22 [error] [php] Undefined variable: model (C:\xampp\htdocs\MCS\protected\views\main\landing.php:27)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(13): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (27)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (13)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 10:28:53 [error] [php] Undefined variable: model (C:\xampp\htdocs\MCS\protected\views\main\landing.php:32)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(13): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (32)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (13)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 10:28:53 [error] [php] Undefined variable: model (C:\xampp\htdocs\MCS\protected\views\main\landing.php:32)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(13): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (32)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (13)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 10:35:31 [error] [php] Undefined variable: model (C:\xampp\htdocs\MCS\protected\views\main\landing.php:61)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(13): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (61)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (13)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 10:35:34 [error] [php] Undefined variable: model (C:\xampp\htdocs\MCS\protected\views\main\landing.php:61)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(13): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (61)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (13)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 10:37:23 [error] [php] Undefined variable: model (C:\xampp\htdocs\MCS\protected\views\main\landing.php:61)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(13): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (61)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (13)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 10:37:26 [error] [php] Undefined variable: model (C:\xampp\htdocs\MCS\protected\views\main\landing.php:61)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(13): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (61)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (13)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 10:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 10:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 10:40:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:33:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "landing".' in C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('landing')
+#1 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/MCS/index.php/landing
+2015/11/16 14:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:40:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:40:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:41:58 [error] [php] Undefined variable: form (C:\xampp\htdocs\MCS\protected\views\main\landing.php:18)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing?
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (18)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (30)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 14:42:36 [error] [exception.CException] exception 'CException' with message 'MainController contains improperly nested widget tags in its view "C:\xampp\htdocs\MCS\protected\views\main\landing.php". A CActiveForm widget does not have an endWidget() call.' in C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php:94
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): CController->renderPartial('landing', Array, true)
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): CController->render('landing', Array)
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('landing')
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/landing')
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/MCS/index.php/main/landing?
+2015/11/16 14:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:44:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:45:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:51:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:55:16 [error] [exception.CException] exception 'CException' with message 'MainController contains improperly nested widget tags in its view "C:\xampp\htdocs\MCS\protected\views\main\landing.php". A CActiveForm widget does not have an endWidget() call.' in C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php:94
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): CController->renderPartial('landing', Array, true)
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): CController->render('landing', Array)
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('landing')
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/landing')
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/MCS/index.php/main/landing?
+2015/11/16 14:55:37 [error] [exception.CException] exception 'CException' with message 'MainController contains improperly nested widget tags in its view "C:\xampp\htdocs\MCS\protected\views\main\landing.php". A CActiveForm widget does not have an endWidget() call.' in C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php:94
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): CController->renderPartial('landing', Array, true)
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): CController->render('landing', Array)
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('landing')
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/landing')
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/MCS/index.php/main/landing?
+2015/11/16 14:55:53 [error] [exception.CException] exception 'CException' with message 'MainController contains improperly nested widget tags in its view "C:\xampp\htdocs\MCS\protected\views\main\landing.php". A CActiveForm widget does not have an endWidget() call.' in C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php:94
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): CController->renderPartial('landing', Array, true)
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): CController->render('landing', Array)
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('landing')
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/landing')
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/MCS/index.php/main/landing?
+2015/11/16 14:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:56:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:58:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:58:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:59:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 14:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:01:33 [error] [exception.CException] exception 'CException' with message 'MainController has an extra endWidget() call in its view.' in C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php:203
+Stack trace:
+#0 C:\xampp\htdocs\MCS\protected\views\main\landing.php(19): CBaseController->endWidget()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): CController->renderPartial('landing', Array, true)
+#5 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): CController->render('landing', Array)
+#6 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('landing')
+#11 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/landing')
+#12 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/MCS/index.php/main/landing?
+2015/11/16 15:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:02:52 [error] [php] Undefined variable: form (C:\xampp\htdocs\MCS\protected\views\main\landing.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): MainController->renderFile()
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): MainController->renderPartial()
+#2 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): MainController->render()
+#3 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): MainController->runAction()
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): MainController->runActionWithFilters()
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): MainController->run()
+#8 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#9 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MCS\index.php(13): CWebApplication->run()
+REQUEST_URI=/MCS/index.php/main/landing?
+in C:\xampp\htdocs\MCS\protected\views\main\landing.php (14)
+in C:\xampp\htdocs\MCS\protected\controllers\MainController.php (30)
+in C:\xampp\htdocs\MCS\index.php (13)
+2015/11/16 15:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:05:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:08:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:14:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:17:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:18:36 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.class=" is not defined.' in C:\xampp\htdocs\MCS\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class=', 'form-signin')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(MainController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(182): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\MCS\protected\views\main\landing.php(27): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): CController->renderPartial('landing', Array, true)
+#8 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): CController->render('landing', Array)
+#9 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#10 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('landing')
+#14 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/landing')
+#15 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/MCS/index.php/main/landing?
+2015/11/16 15:18:43 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.class" is not defined.' in C:\xampp\htdocs\MCS\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'form-signin')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(MainController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(182): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\MCS\protected\views\main\landing.php(27): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): CController->renderPartial('landing', Array, true)
+#8 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): CController->render('landing', Array)
+#9 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#10 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('landing')
+#14 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/landing')
+#15 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/MCS/index.php/main/landing?
+2015/11/16 15:18:57 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.class" is not defined.' in C:\xampp\htdocs\MCS\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'form-signin')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(MainController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(182): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\MCS\protected\views\main\landing.php(27): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(119): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\MCS\yii\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(866): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(779): CController->renderPartial('landing', Array, true)
+#8 C:\xampp\htdocs\MCS\protected\controllers\MainController.php(30): CController->render('landing', Array)
+#9 C:\xampp\htdocs\MCS\yii\framework\web\actions\CInlineAction.php(50): MainController->actionLanding()
+#10 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('landing')
+#14 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/landing')
+#15 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/MCS/index.php/main/landing?
+2015/11/16 15:19:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:22:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:25:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:25:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:26:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:26:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:27:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:27:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:27:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:28:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:29:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:32:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:32:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:32:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:32:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:33:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:40:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:42:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:42:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:42:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/js/ie10-viewport-bug-workaround.js".' in C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('assets/js/ie10-...')
+#1 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/MCS/index.php/assets/js/ie10-viewport-bug-workaround.js
+2015/11/16 15:49:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:49:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:50:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tradesman/default/index".' in C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('tradesman/defau...')
+#1 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/MCS/index.php/tradesman/default/index
+2015/11/16 15:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:51:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tradesman/default/index".' in C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('tradesman/defau...')
+#1 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/MCS/index.php/tradesman/default/index
+2015/11/16 15:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tradesman/default/index".' in C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('tradesman/defau...')
+#1 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/MCS/index.php/tradesman/default/index
+2015/11/16 15:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('default/index')
+#1 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/MCS/index.php/default/index
+2015/11/16 15:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/MCS/index.php/index
+2015/11/16 15:52:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:53:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:53:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('index.html')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/index.html')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/index.html
+2015/11/16 15:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('index.html')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/index.html')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/index.html
+2015/11/16 15:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:55:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logout"".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('logout"')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('logout"')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/logout"')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/logout%22
+2015/11/16 15:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logout"".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('logout"')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('logout"')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('site/logout"')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/site/logout%22
+2015/11/16 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Logout"".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('Logout"')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('Logout"')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('site/Logout"')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/site/Logout%22
+2015/11/16 15:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 15:57:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 16:02:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js
+2015/11/16 16:02:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\MCS\yii\framework\web\CController.php:477
+Stack trace:
+#0 C:\xampp\htdocs\MCS\yii\framework\web\CController.php(262): CController->missingAction('js')
+#1 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(277): CController->run('js')
+#2 C:\xampp\htdocs\MCS\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('main/js/ie-emul...')
+#3 C:\xampp\htdocs\MCS\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MCS\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/MCS/index.php/main/js/ie-emulation-modes-warning.js

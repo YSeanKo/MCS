@@ -115,7 +115,7 @@
                         <a href="status.html">View Claim Status</a>
                     </li>
                     <li style="float:right;">
-                        <a href="index.html">Logout</a>
+                        <a href="<?= $this->createUrl('/site/logout')?>">Logout</a>
                     </li>
 
 
