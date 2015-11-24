@@ -11,74 +11,91 @@
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
     <!-- Bootstrap core CSS -->
+    <link href="<?php echo $this->getThemePath()?>css/bootstrap.min v2.3.2.css" rel="stylesheet">
     <link href="<?php echo $this->getThemePath()?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $this->getThemePath()?>css/prettify.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="<?php echo $this->getThemePath()?>js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $this->getThemePath()?>css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://eonasdan.github.io/bootstrap-datetimepicker/css/prettify-1.0.css" rel="stylesheet">
+    <link href="https://eonasdan.github.io/bootstrap-datetimepicker/css/base.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
 
+    <script type="text/javascript" src="<?php echo $this->getThemePath()?>js/jquery-2.1.1.min.js"></script>
+    <script src="<?php echo $this->getThemePath()?>js/moment-with-locales.js"></script>
+    <script src="<?php echo $this->getThemePath()?>js/bootstrap-datetimepicker.js"></script>
     <style>
 
-     body {
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+            padding-top:70px;
+            width:80%;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+            background-color: #f5f5f5;
+        }
+
+        .nav {
+            padding: 15px 0;
+        }
+
+        .tab-content {
+            padding-top: 21px;
+            height:400px;
+            width:80%;
+        }
+        #vehicle {
+            width:100px;
+        }
+        #duty {
+            width:120px;
+        }
+        #tab1 table th,td {
+            text-align:center;
+        }
+
+        #tab4 table th,td {
+            text-align:center;
+        }
+
+        #tab1 table .form-group {
+            width:70%;
+            margin-left:auto;
+            margin-right:auto;
 
         }
 
-     html {
-         position: relative;
-         min-height: 100%;
-     }
-     body {
-         /* Margin bottom by footer height */
-         margin-bottom: 60px;
-         padding-top:70px;
-     }
-     .footer {
-         position: absolute;
-         bottom: 0;
-         width: 100%;
-         /* Set the fixed height of the footer here */
-         height: 60px;
-         background-color: #f5f5f5;
-     }
-
-     .nav {
-         padding: 15px 0;
-     }
-
-     .marquee h1{
-         -webkit-animation: announcement 20s;  /* Chrome, Safari, Opera */
-         -webkit-animation-iteration-count: 1;  /* Chrome, Safari, Opera */
-         -webkit-animation-fill-mode: backwards;  /* Chrome, Safari, Opera */
-         animation: announcement 20s;
-         animation-iteration-count: 1;
-         animation-fill-mode: backwards;
-     }
-
-     @keyframes announcement {
-         0%	{
-             transform:translateX(100%);
-         }
-         10% {
-             transform:translateX(0);
-         }
-         40% {
-             transform:translateX(0);
-         }
-     }
+        .nav-tabs {
+            width:11%;
+        }
+        #tab2 .hover { background-color:#ddd }
+        #tab2 .clicked { background-color:#C0C0C0 }
     </style>
 
 </head>
 
-<body>
+<body style="padding-top: 70px; "cz-shortcut-listen="true" style="width:100%;">
 
-<div class="container" id="page">
+<div class="container" id="page" style="width:100%;">
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background:#262626">
         <div class="container">
