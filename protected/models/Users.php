@@ -9,12 +9,18 @@
  * @property string $name
  * @property string $position
  */
-class Users extends CActiveRecord
+class Users extends MyActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return Users the static model class
 	 */
+
+	public function getDbConnection()
+	{
+		return self::getSmstafDbConnection();
+	}
+
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);

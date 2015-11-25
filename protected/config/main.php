@@ -52,13 +52,21 @@ return array(
 		),*/
 		// uncomment the following to use a MySQL database
 
-		'db'=>array(
+		'dbsmstaf'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=smstaf',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => 'admin',
 			'charset' => 'utf8',
+			'class'            => 'CDbConnection'          // DO NOT FORGET THIS!
 		),
+
+		'db' => array(
+			'connectionString' => 'mysql:host=localhost;dbname=mcs',
+			'username'         => 'root',
+			'password'         => 'admin',
+			'charset' 		   => 'utf8',
+        ),
 
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors

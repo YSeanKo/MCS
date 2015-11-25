@@ -33,6 +33,8 @@
     <script type="text/javascript" src="<?php echo $this->getThemePath()?>js/jquery-2.1.1.min.js"></script>
     <script src="<?php echo $this->getThemePath()?>js/moment-with-locales.js"></script>
     <script src="<?php echo $this->getThemePath()?>js/bootstrap-datetimepicker.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
+
     <style>
 
         html {
@@ -42,7 +44,6 @@
         body {
             /* Margin bottom by footer height */
             margin-bottom: 60px;
-            padding-top:70px;
             width:80%;
         }
         .footer {
@@ -59,14 +60,13 @@
         }
 
         .tab-content {
-            padding-top: 21px;
             height:400px;
             width:80%;
         }
-        #vehicle {
-            width:100px;
+        #vehicle select {
+            width:105px;
         }
-        #duty {
+        #duty select {
             width:120px;
         }
         #tab1 table th,td {
@@ -82,6 +82,10 @@
             margin-left:auto;
             margin-right:auto;
 
+        }
+
+        .input-group .date {
+            zIndexOffset: '1001';
         }
 
         .nav-tabs {
@@ -155,6 +159,7 @@
 
 
 <script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script></body></html>
+
 
 
 </body>

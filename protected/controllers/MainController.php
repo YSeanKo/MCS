@@ -14,9 +14,29 @@ class MainController extends Controller {
         $this->render('profile');
     }
 
-    public function actionClaim() {
+    public function actionClaim()
+    {
         $this->layout = 'claim';
-        $this->render('claim');
+        $model = new Trip;
+//        $this->render('claim', array('model' => $model));
+//
+//        if ($model->load(Yii::$app->request->post()) && $model->claim(Yii::$app->params['adminEmail']))
+//        {
+//            Yii::$app->session->setFlash('contactFormSubmitted');
+//
+//            return $this->refresh();
+//        }
+//        else
+//        {
+//            return $this->render('claim', array('model' => $model));
+//        }
+        if (isset($_POST['Trip'])) {
+            $model->attributes = $_POST['Trip'];
+            $model->claim();
+            Yii::app()->user->setFlash('claim','Thank you for contacting us. We will respond to you as soon as possible.');
+            $this->refresh();
+        }
+        $this->render('claim', array('model' => $model));
     }
 
     public function actionStatus() {
