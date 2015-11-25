@@ -1,7 +1,6 @@
 # MCS
 FSKTM Mileage Claim System prototype with Yii
 
+Project for Requirement Analysis and Design. 
 
-When hosted:
-need edit Main.php (config) - dbc details
-need edit Model Users - return tablename all-lowercase
+Prototype system hosted live at http://mcs.zyten.xyz
