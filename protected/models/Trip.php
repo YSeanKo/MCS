@@ -14,16 +14,17 @@
  * @property string $distance
  * @property string $vehicle
  * @property string $dutyType
- * @property string departCity;
- * @property string departCityLat;
- * @property string departCityLng;
- * @property string destinationCity;
- * @property string destinationCityLat;
- * @property string destinationCityLng;
+ * @property string $departCity
+ * @property string $departCityLat
+ * @property string $departCityLng
+ * @property string $destinationCity
+ * @property string $destinationCityLat
+ * @property string $destinationCityLng
  */
 class Trip extends CActiveRecord
 {
 
+	public $id;
 	public $departDate;
 	public $arrivalDate;
 	public $departTime;
@@ -63,17 +64,11 @@ class Trip extends CActiveRecord
 	{
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
-//		return array(
-//			array('id', 'required'),
-//			array('id', 'numerical', 'integerOnly'=>true),
-//			array('departDate, arrivalDate, departTime, arrivalTime, departLocation, arrivalLocation, distance, vehicle, dutyType', 'length', 'max'=>45),
-//			// The following rule is used by search().
-//			// Please remove those attributes that should not be searched.
-//			array('id, departDate, arrivalDate, departTime, arrivalTime, departLocation, arrivalLocation, distance, vehicle, dutyType', 'safe', 'on'=>'search'),
-//		);
 		return array(
-			// name, email, subject and body are required
-				array('distance,departDate, arrivalDate, departTime, arrivalTime, departLocation, arrivalLocation,dutyType, vehicle, departCity, departCityLat, departCityLng, destinationCity, destinationCityLat, destinationCityLng', 'required'),
+			array('departDate, arrivalDate, departTime, arrivalTime, departLocation, arrivalLocation, distance, vehicle, dutyType, departCity, departCityLat, departCityLng, destinationCity, destinationCityLat, destinationCityLng', 'length', 'max'=>45),
+			// The following rule is used by search().
+			// Please remove those attributes that should not be searched.
+			array('id, departDate, arrivalDate, departTime, arrivalTime, departLocation, arrivalLocation, distance, vehicle, dutyType, departCity, departCityLat, departCityLng, destinationCity, destinationCityLat, destinationCityLng', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -104,6 +99,12 @@ class Trip extends CActiveRecord
 			'distance' => 'Distance',
 			'vehicle' => 'Vehicle',
 			'dutyType' => 'Duty Type',
+			'departCity' => 'Depart City',
+			'departCityLat' => 'Depart City Lat',
+			'departCityLng' => 'Depart City Lng',
+			'destinationCity' => 'Destination City',
+			'destinationCityLat' => 'Destination City Lat',
+			'destinationCityLng' => 'Destination City Lng',
 		);
 	}
 
@@ -111,28 +112,34 @@ class Trip extends CActiveRecord
 	 * Retrieves a list of models based on the current search/filter conditions.
 	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
 	 */
-//	public function search()
-//	{
-//		// Warning: Please modify the following code to remove attributes that
-//		// should not be searched.
-//
-//		$criteria=new CDbCriteria;
-//
-//		$criteria->compare('id',$this->id);
-//		$criteria->compare('departDate',$this->departDate,true);
-//		$criteria->compare('arrivalDate',$this->arrivalDate,true);
-//		$criteria->compare('departTime',$this->departTime,true);
-//		$criteria->compare('arrivalTime',$this->arrivalTime,true);
-//		$criteria->compare('departLocation',$this->departLocation,true);
-//		$criteria->compare('arrivalLocation',$this->arrivalLocation,true);
-//		$criteria->compare('distance',$this->distance,true);
-//		$criteria->compare('vehicle',$this->vehicle,true);
-//		$criteria->compare('dutyType',$this->dutyType,true);
-//
-//		return new CActiveDataProvider($this, array(
-//			'criteria'=>$criteria,
-//		));
-//	}
+	public function search()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('id',$this->id);
+		$criteria->compare('departDate',$this->departDate,true);
+		$criteria->compare('arrivalDate',$this->arrivalDate,true);
+		$criteria->compare('departTime',$this->departTime,true);
+		$criteria->compare('arrivalTime',$this->arrivalTime,true);
+		$criteria->compare('departLocation',$this->departLocation,true);
+		$criteria->compare('arrivalLocation',$this->arrivalLocation,true);
+		$criteria->compare('distance',$this->distance,true);
+		$criteria->compare('vehicle',$this->vehicle,true);
+		$criteria->compare('dutyType',$this->dutyType,true);
+		$criteria->compare('departCity',$this->departCity,true);
+		$criteria->compare('departCityLat',$this->departCityLat,true);
+		$criteria->compare('departCityLng',$this->departCityLng,true);
+		$criteria->compare('destinationCity',$this->destinationCity,true);
+		$criteria->compare('destinationCityLat',$this->destinationCityLat,true);
+		$criteria->compare('destinationCityLng',$this->destinationCityLng,true);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
 
 	public function claim()
 	{

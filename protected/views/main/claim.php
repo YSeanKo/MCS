@@ -1,6 +1,6 @@
 <?php $this->pageTitle = "FSKTM MCS | Claim"; ?>
 
-<div class="container">
+<div class="container" xmlns:display="http://www.w3.org/1999/xhtml">
 
     <div class="span16">
         <section id="wizard" style="width:110%;">
@@ -273,7 +273,7 @@
                             <tbody>
                             <tr>
                                 <td>
-                                    <div  class="form-group">
+                                    <div class="form-group">
                                         <select id="publicType">
                                             <option>Taxi</option>
                                             <option>City Bus</option>
@@ -283,14 +283,17 @@
                                 <td>
                                     <div class="form-group">
                                         <div class='input-group date' id='datetimepickerPublic'">
-                                        <input type='text' class="form-control" style="width:70px; padding: 14px;"/>
+                                        <input type='text' class="form-control" style="width:160px; padding: 14px;"/>
                                         <span class="input-group-addon" style="float:left; width:40px;"">
                                             <span class="glyphicon glyphicon-calendar">
                                             </span>
                                         </span>
                                     </div>
                                 </td>
-                                <td style="text-align:center;">RM <input type='text' class="form-control" style="width=70px;padding: 14px;"></td>
+                                <td style="text-align:center; width:100px">
+                                    <label style="display:block; width:20px; float:left; border:1px solid cyan">RM</label>
+                                    <input type='text' class="form-control" style="display:block; border:1px solid blue;float:left;width=70px;padding: 14px;">
+                                </td>
                                 <td>
                                     <button type="button" class="btn btn-default">Upload</button>
                                 </td>
@@ -349,28 +352,16 @@
                     <div class="tab-pane" id="tab7">
                         <?php
                         $this->breadcrumbs=array(
-                            'Trips'=>array('index'),
-                            $model->id,
+                            'Trips',
                         );
                         ?>
-
-                        <h1>Summary<?php echo $model->id; ?></h1>
-
-                        <?php $this->widget('zii.widgets.CDetailView', array(
-                            'data'=>$model,
-                            'attributes'=>array(
-                                'id',
-                                'departDate',
-                                'arrivalDate',
-                                'departTime',
-                                'arrivalTime',
-                                'departCity',
-                                'destinationCity',
-                                'distance',
-                                'vehicle',
-                                'dutyType',
-                            ),
+                        <?php $this->widget('zii.widgets.CListView', array(
+                            'dataProvider'=>$dataProvider,
+                            'itemView'=>'_view',
                         )); ?>
+                        <div style="margin-right:10px;"><button type="button" class="btn btn-default pull-right">Submit</button>
+                            <button style="margin-right:10px; float:right;"type="button" class="btn btn-default">Save</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -499,7 +490,7 @@ function getDist(){
     var to   = new google.maps.LatLng(toLat, toLng);
     var dist = google.maps.geometry.spherical.computeDistanceBetween(from, to);
     console.dir(dist);
-    document.getElementById('distance').value = dist;
+    document.getElementById('distance').value = dist/1000;
 }
 
 </script>

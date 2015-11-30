@@ -36,7 +36,11 @@ class MainController extends Controller {
             Yii::app()->user->setFlash('claim','Thank you for contacting us. We will respond to you as soon as possible.');
             $this->refresh();
         }
-        $this->render('claim', array('model' => $model));
+
+        $dataProvider=new CActiveDataProvider('Trip');
+
+        $this->render('claim', array('model' => $model, 'dataProvider'=>$dataProvider,
+        ));
     }
 
     public function actionStatus() {
@@ -51,6 +55,22 @@ class MainController extends Controller {
     public function actionContact() {
         $this->render('contact');
     }
+
+    public function actionSummary() {
+        $model = new Trip;
+
+        $this->render('summary', array('model'=>$model));
+    }
+
+    public function actionView() {
+        $this->layout = 'main';
+        $dataProvider=new CActiveDataProvider('Trip');
+        $this->render('view',array(
+            'dataProvider'=>$dataProvider,
+        ));
+    }
+
+
 
     // Uncomment the following methods and override them if needed
     /*
